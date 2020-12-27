@@ -8,7 +8,7 @@ try:
         subject = 'This is obviously the subject'
         body = 'This is obviously the body'
         html = '<a href="https://pypi.python.org/pypi/sky/">Click me!</a>'
-        img = './email.png'
+        img = './test_image.png'
         yag.send(to = to, subject = subject, contents = [body, html, img])
         print("email sent successfully...")
 except:
