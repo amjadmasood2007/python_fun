@@ -1,5 +1,6 @@
 import yagmail
 
+#sample code form : https://reposhub.com/python/sending-and-parsing-email/kootenpv-yagmail.html 
 try:
     for x in range(1):
         yagmail.register('felefwlab', 'franklinelectric')
